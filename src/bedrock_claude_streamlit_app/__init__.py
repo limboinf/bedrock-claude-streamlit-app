@@ -1,3 +1,9 @@
+
+import click
+
+
+@click.command()
 def main() -> int:
-    print("Hello from bedrock-claude-streamlit-app!")
+    import streamlit.web.cli as cli
+    cli._main_run("app.py")
     return 0
