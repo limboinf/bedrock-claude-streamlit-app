@@ -100,8 +100,12 @@ mdurl==0.1.2
 multidict==6.0.5
     # via aiohttp
     # via yarl
+mypy==1.9.0
 mypy-extensions==1.0.0
+    # via mypy
     # via typing-inspect
+nodeenv==1.8.0
+    # via pyright
 numpy==1.26.4
     # via altair
     # via langchain
@@ -136,6 +140,7 @@ pydeck==0.8.1b0
     # via streamlit
 pygments==2.17.2
     # via rich
+pyright==1.1.355
 python-dateutil==2.9.0.post0
     # via botocore
     # via pandas
@@ -182,6 +187,8 @@ tenacity==8.2.3
     # via streamlit
 toml==0.10.2
     # via streamlit
+tomli==2.0.1
+    # via mypy
 toolz==0.12.1
     # via altair
 tornado==6.4
@@ -189,6 +196,7 @@ tornado==6.4
 typing-extensions==4.10.0
     # via altair
     # via anyio
+    # via mypy
     # via pydantic
     # via pydantic-core
     # via sqlalchemy
@@ -203,3 +211,5 @@ urllib3==2.2.1
     # via requests
 yarl==1.9.4
     # via aiohttp
+setuptools==69.2.0
+    # via nodeenv

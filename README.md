@@ -3,6 +3,8 @@ A sleek and intuitive Streamlit application that harnesses the power of Claude, 
 
 With this app, you can effortlessly interact with Claude, leveraging its advanced language capabilities to accomplish a wide range of tasks, from brainstorming ideas to drafting content and beyond. 🎨📝
 
+fork from https://github.com/davidshtian/Bedrock-ChatBot-with-LangChain-and-Streamlit
+
 ## Key Features
 🤖 Seamless integration with Claude's AI capabilities
 🌈 User-friendly interface powered by Streamlit
