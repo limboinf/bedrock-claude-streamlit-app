@@ -337,3 +337,7 @@ def main() -> None:
             response = generate_response(conv_chain, [{"role": "user", "content": prompt_new}])
         message = {"role": "assistant", "content": response}
         st.session_state.messages.append(message)
+
+
+if __name__ == "__main__":
+    main()
